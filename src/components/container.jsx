@@ -158,9 +158,9 @@ function Container() {
           <p id="powerLabel" className="txtFont">
             POWER
           </p>
-          <div class="form-check form-switch">
+          <div className="form-check form-switch">
             <input
-              class="form-check-input"
+              className="form-check-input"
               type="checkbox"
               role="switch"
               defaultChecked="true"
@@ -171,7 +171,7 @@ function Container() {
           <p id="display" className="txtFont  OnOff"></p>
           <input
             type="range"
-            class="form-range  OnOff"
+            className="form-range  OnOff"
             min="0"
             max="100"
             onChange={() => ShowVolume()}
@@ -180,9 +180,9 @@ function Container() {
           <p id="bankLabel" className="txtFont">
             BANK
           </p>
-          <div class="form-check form-switch">
+          <div className="form-check form-switch">
             <input
-              class="form-check-input  OnOff"
+              className="form-check-input  OnOff"
               type="checkbox"
               role="switch"
               id="bankSwitch"
